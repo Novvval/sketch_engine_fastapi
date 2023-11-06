@@ -10,7 +10,7 @@ similar words to a queried word.
 
 Begin by cloning the repository
 
-    git clone https://github.com/novvval/sketch-engine-api.git
+    git clone https://github.com/Novvval/sketch_engine_fastapi.git
 
 ## Run the app
 
