@@ -16,11 +16,11 @@ class SketchEngineRequest:
         if self.lang not in COUNTRY_CODES:
             raise InvalidLangError()
         if self.query == "":
-            raise InvalidQueryError(self.query)
+            raise InvalidQueryError()
         if self.query.isspace():
-            raise InvalidQueryError(self.query)
+            raise InvalidQueryError()
         if len(self.query) > 1000:
-            raise InvalidQueryError(self.query)
+            raise InvalidQueryError()
         return True
 
     def send(self):

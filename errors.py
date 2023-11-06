@@ -14,6 +14,6 @@ class InvalidLangError(ApiException):
 
 
 class InvalidQueryError(ApiException):
-    def __init__(self, query):
-        message = f"Invalid query: {query}"
+    def __init__(self):
+        message = f"Invalid query"
         super().__init__(400, message)
